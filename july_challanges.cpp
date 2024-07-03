@@ -25,6 +25,46 @@ for(int i = 10; i >=1; i--){
 }
 cout << factorial << endl;*/
 
-return 0;
+/*Challenge 7: Sum of Numbers in an Array
+int arr[] = {2,4,6,8,10,12,14,16,18,20};
+int sum = 0;
+for(int i = 0; i <10; i++){
+sum+= arr[i];
+}
+cout << sum;*/
+
+/*Challenge 8: Average of Numbers in an Array
+int arr[6] = {10,10,10,10,10,10};
+int average;
+int sum = 0;
+
+    for(int i = 0; i < 6; i++){
+        sum+= arr[i];
+    }
+average = (sum / 6);
+cout << average << endl;*/
+
+/*Challenge 9: Positive Numbers in an Array 
+int arr[10] = {2,-4,6,-8,10,-12,14,-16,18,-20};
+cout << "Postive numbers in this array ({2,-4,6,-8,10,-12,14,-16,18,-20}) : " << endl;
+for(int i = 0; i < 10; i++){
+    if(arr[i] > 1){
+        cout << arr[i] << ", ";
+    }
+    else if(arr[i] > 1 && i == -1){
+        cout << arr[i] << ".";
+    }
+}*/
+/*Challenge 10: Maximum number in an array
+int arr[10] = {2,-4,6,-8,10,-12,14,-16,18,-20};
+int max_value = arr[0];
+
+for(int i = 0; i < 10; i++){
+    if(max_value < arr[i]){
+        max_value = arr[i];
+    } 
+}
+cout << max_value << endl;*/
+   return 0; 
 }
 
