@@ -65,6 +65,11 @@ for(int i = 0; i < 10; i++){
     } 
 }
 cout << max_value << endl;*/
+
+//Challenge 14: First 10 Fibonacci numbers without recursion
+//Challenge 15: nth Fibonacci number using recursion
+//Challenge 16: Check if a number is prime
+//Challenge 17: Sum of digits of a positive integer
    return 0; 
 }
 
